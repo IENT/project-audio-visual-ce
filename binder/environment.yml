@@ -1,4 +1,4 @@
-name: ptilab
+name: schuelrprojekt
 channels:
   - conda-forge
 dependencies:
