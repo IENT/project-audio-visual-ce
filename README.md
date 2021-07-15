@@ -1,7 +1,7 @@
 # Schüleruni - Audio-Visual Computer Engineering
 
-[![RWTHjupyter](https://jupyter.pages.rwth-aachen.de/documentation/images/badge-launch-rwth-jupyter.svg)](https://jupyter.rwth-aachen.de/user/1iszcupc/lab) 
-[![Binder](https://mybinder.org/badge_logo.svg)]()
+[![RWTHjupyter](https://jupyter.pages.rwth-aachen.de/documentation/images/badge-launch-rwth-jupyter.svg)](https://jupyter.rwth-aachen.de/hub/spawn?profile=avce&next=/user-redirect/lab/tree/avce%2Findex.ipynb) 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/IENT/project-audio-visual-ce.git/master?urlpath=lab/tree/index.ipynb)
 
 ## Introduction
 
@@ -11,7 +11,7 @@ Visit the notebook [index.ipynb](index.ipynb) for a table of contents.
 
 ## Quick Start
 
-Run the notebooks directly online [RWTHjupyter](https://jupyter.rwth-aachen.de): [![RWTHjupyter](https://jupyter.pages.rwth-aachen.de/documentation/images/badge-launch-rwth-jupyter.svg)](https://jupyter.rwth-aachen.de/user/1iszcupc/lab)
+Run the notebooks directly online [RWTHjupyter](https://jupyter.rwth-aachen.de): [![RWTHjupyter](https://jupyter.pages.rwth-aachen.de/documentation/images/badge-launch-rwth-jupyter.svg)](https://jupyter.rwth-aachen.de/hub/spawn?profile=avce&next=/user-redirect/lab/tree/avce%2Findex.ipynb)
 
 * The starting process of the session may take up to one minute.
 
@@ -19,7 +19,7 @@ As a fall back: Use Binder or offline usage (see below).
 
 ## Binder
 
-Run the notebooks directly online [![Binder](https://mybinder.org/badge_logo.svg)](). Please note the following limitations:
+Run the notebooks directly online [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/IENT/project-audio-visual-ce.git/master?urlpath=lab/tree/index.ipynb). Please note the following limitations:
 
 * The starting process of the session may take up to one minute.
 * Please note that the session will be cancelled after 10 minutes of user inactivity.
