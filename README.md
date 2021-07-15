@@ -1,6 +1,6 @@
 # Schüleruni - Audio-Visual Computer Engineering
 
-[![RWTHjupyter](https://jupyter.pages.rwth-aachen.de/documentation/images/badge-launch-rwth-jupyter.svg)]() 
+[![RWTHjupyter](https://jupyter.pages.rwth-aachen.de/documentation/images/badge-launch-rwth-jupyter.svg)](https://jupyter.rwth-aachen.de/user/1iszcupc/lab) 
 [![Binder](https://mybinder.org/badge_logo.svg)]()
 
 ## Introduction
@@ -11,7 +11,7 @@ Visit the notebook [index.ipynb](index.ipynb) for a table of contents.
 
 ## Quick Start
 
-Run the notebooks directly online [RWTHjupyter](https://jupyter.rwth-aachen.de): [![RWTHjupyter](https://jupyter.pages.rwth-aachen.de/documentation/images/badge-launch-rwth-jupyter.svg)]()
+Run the notebooks directly online [RWTHjupyter](https://jupyter.rwth-aachen.de): [![RWTHjupyter](https://jupyter.pages.rwth-aachen.de/documentation/images/badge-launch-rwth-jupyter.svg)](https://jupyter.rwth-aachen.de/user/1iszcupc/lab)
 
 * The starting process of the session may take up to one minute.
 
