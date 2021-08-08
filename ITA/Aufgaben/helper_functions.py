@@ -75,13 +75,16 @@ def plot_HRIR(HRIR, ILD, ITD, sampling_rate=44100):
     # get the data for the time plot:
 
     # calculate the values in decibels
-    dB_data = 20*np.log10(np.abs(HRIR))
+#     dB_data = 20*np.log10(np.abs(HRIR))
+    dB_data = np.abs(HRIR)
     # lowpass filtering of the data for smooth plot
     # dB_data = butter_lowpass_filter(dB_data, 44100, 10000, 2)
 
     # plot the two channels
-    ax[0].plot(t, dB_data[0], label='Left Ear')
-    ax[0].plot(t, dB_data[1], label='Right Ear')
+#     ax[0].plot(t, dB_data[0], label='Left Ear')
+#     ax[0].plot(t, dB_data[1], label='Right Ear')
+    ax[0].plot(t, HRIR[0], label='Left Ear', linestyle='-')
+    ax[0].plot(t, HRIR[1], label='Right Ear', linestyle='-.')
 
     # visualize the ILD and ITD
     ax[0].axvspan(
@@ -89,9 +92,10 @@ def plot_HRIR(HRIR, ILD, ITD, sampling_rate=44100):
         alpha=0.5,
         color='yellow',
         label='ITD')
+    ax[0].grid(True)
 
     # set limits, title, labels and activate legend
-    ax[0].set_ylim(-60, 10)
+#     ax[0].set_ylim(-60, 10)
     ax[0].set_xlim(0, t[-1])
     ax[0].set_xlabel('Time [s]')
     ax[0].set_ylabel('HRIR [dB]')
